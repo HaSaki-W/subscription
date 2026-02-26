@@ -5,9 +5,9 @@ import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
   id: 233,
-  name: 'Subscription',
+  name: 'Luffy-GKD',
   version: 0,
-  author: 'author',
+  author: 'Luffy',
   checkUpdateUrl: './gkd.version.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',
   categories,
