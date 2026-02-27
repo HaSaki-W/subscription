@@ -10,184 +10,45 @@ export const blackListAppIDs: string[] = [
   'org.telegram.messenger', // Telegram
   'com.twitter.android', // X(推特)
   'com.aistra.hail', // 雹
-  'com.heyanle.easybangumi4', // 纯纯看番
-  'com.perol.pixez', // PixEz
-  'com.perol.play.pixez', // PixEz Google Play版
-  'com.magicalstory.videos', // 奇妙影视
-  'com.magicalstory.installer', // 奇妙安装程序
-  'com.guozhigq.pilipala', // PiliPala
-  'com.salt.music', // Salt Player
-  'com.xuncorp.qinalt.music', // 青盐云听
-  'com.github.wgh136.pica_comic', // Pica Comic
-  'com.yenaly.han1meviewer', // Han1meViewer
-  'ru.zdevs.zarchiver', // ZArchiver
-  'ru.zdevs.zarchiver.pro', // ZArchiver Pro
-  'me.zhanghai.android.files', // 质感文件
-  'com.xjcheng.musictageditor', // 音乐标签
-  'com.lalilu.lmusic', // LMusic
-  'com.ktls.fileinfo', // 存储空间清理
-  'idm.internet.download.manager', // 1DM
-  'idm.internet.download.manager.plus', // 1DM+
-  'com.mxtech.videoplayer', // MX播放器
-  'com.mxtech.videoplayer.pro', // MX播放器专业版
   'com.github.kr328.clash', // Clash for Android
   'com.x8bit.bitwarden', // Bitwarden
-  'org.localsend.localsend_app', // LocalSend
   'moe.shizuku.privileged.api', // Shizuku
-  'com.ktls.automation', // 自动点击工具
-  'com.deepl.mobiletranslator', // DeepL
-  'com.accessibilitymanager', // 无障碍管理器
-  'me.tasy5kg.cutegif', // 小萌GIF
-  'com.absinthe.libchecker', // LibChecker
   'com.github.metacubex.clash.meta', // Clash Meta for Android
-  'io.github.jd1378.otphelper', // 短信验证码自动复制
   'com.valvesoftware.android.steam.community', // Steam
-  'io.legado.app.release', // 阅读
+
   'com.getsurfboard', // Surfboard
   'moe.nb4a', // NekoBox
   'com.v2ray.ang', // v2rayNG
   'com.v2ray.v2fly', // v2flyNG
   'com.xiaoyv.bangumi', // Bangumi for Android
-  'com.funny.translation', // 译站
-  'com.looker.droidify', // Droid-ify
-  'app.eleven.com.fastfiletransfer', // 文件闪传
-  'com.idaodan.clean.master', // 雪豹速清
-  'com.samsung.agc.gcam84', // 相机
-  'com.wsw.cospa', // 异次元
-  'app.mihon', // Mihon
-  'com.rosan.installer.x', // installerX
-  'app.rikka.savecopy', // 保存副本
+
   'com.rosan.dhizuku', // Dhizuku
-  'com.rosan.accounts', // Accounts
-  'com.dv.adm', // ADM
-  'com.assistant.ongoingclear', // 固定通知隐藏
-  'org.koitharu.kotatsu', // Kotatsu
-  'me.ash.reader', // Read You
-  'com.huanchengfly.tieba.post', // 贴吧Lite
-  'com.example.c001apk', // c001apk
-  'dev.anilbeesetti.nextplayer', // Next Player
-  'org.kde.kdeconnect_tp', // KDE Connect
+
   'xyz.adproqwq.GKDTool', // GKDTool
   'com.alibaba.aliyun', // 阿里云
   'com.alicloud.databox', // 阿里云盘
-  'xyz.nextalone.nagram', // Nagram
   'com.openai.chatgpt', // ChatGPT
-  'org.telegram.group', // Turrit
   'com.android.chrome', // Chrome
   'com.microsoft.emmx', // Edge
   'org.mozilla.firefox', // Firefox
-  'org.mozilla.firefox_beta', // Firefox Beta
-  'org.mozilla.fenix', // Firefox Nightly
-  'org.mozilla.focus', // Firefox Focus
+
   'com.google.android.youtube', // YouTube
   'com.xunmeng.pinduoduo', // 拼多多
-  'com.byyoung.setting', //爱玩机工具箱
-  'com.mixplorer', // MiX文件管理器
-  'com.xjs.ehviewer', // Ehviewer
-  'rikka.appops', // App Ops
-  'com.vrem.wifianalyzer', // WiFiAnalyzer
-  'remix.myplayer', // APlayer
-  'com.arn.scrobble', // Pano Scrobbler
-  'org.videolan.vlc', // VLC
-  'org.geogebra.android.calculator.suite', // GeoGebra
-  'com.azure.authenticator', // Microsoft Authenticator
-  'com.microsoft.office.officehub', // Microsoft Office
-  'com.microsoft.office.officehubrow', // Microsoft Office (Google Play版)
-  'com.microsoft.office.outlook', // Microsoft Outlook
-  'com.microsoft.office.onenote', // Microsoft OneNote
-  'com.sonkins.tguitar', // Guitar Tuner
-  'com.eumlab.android.prometronome', // Pro Metronome
-  'cn.edu.buaa.wxwork', // 智慧北航
-  'io.github.muntashirakon.AppManager', // App Manager
-  'moe.shizuku.redirectstorage', // 存储空间隔离
-  'web1n.stopapp', // 小黑屋
-  'com.shatyuka.zhiliao', // 知了
-  'com.adobe.reader', // Adobe Acrobat
-  'org.wikipedia', // 维基百科
-  'org.kiwix.kiwixmobile', // Kiwix
-  'com.brakefield.painter', // Infinte Painter
-  'me.iacn.biliroaming', // 哔哩漫游
-  'com.termux', // Termux
-  'oss.krtirtho.spotube', // Spotube
-  'com.merxury.blocker', // Blocker
-  'moe.minamigo.miuigms', // MIUIGMS
-  'mufanc.tools.applock', // AppLock
-  'com.gankes.tsbattery', // TSBattery
-  'com.oasisfeng.nevo.xposed', // 女娲石
-  'com.reddit.frontpage', // Reddit
-  'com.ghostflying.locationreportenabler', // LocationReportEnabler
-  'com.zyc.zcontrol', // ZControl
-  'org.nobody.multitts', // MultiTTS
-  'deltazero.amarok', // Amarok 更新提示在 https://i.gkd.li/i/17812411 误触
+
   'com.quark.browser', // 夸克浏览器 开屏广告误触 https://i.gkd.li/i/18221460
   'bin.mt.plus', // MT管理器
   'com.pikcloud.pikpak', // PikPak
   'com.deepseek.chat', // DeepSeek
-  'com.yjllq.kito', // 可拓浏览器
-  'com.fuck.android.rimet', // 锤锤
-  'cn.tinyhai.ban_uninstall', // 禁止卸载
-  'cc.aoeiuv020.iamnotdisabled.hook', // 非残！
-  'cc.aoeiuv020.iamnotdisabled', // 我残？
-  'io.github.jqssun.gpssetter', // GPS Setter
-  'me.hoshino.novpndetect', // NoVPNDetect
-  'com.xchat', // XChat
-  'com.kooritea.fcmfix', // fcmfix
-  'nep.timeline.re_telegram', // Re:Telegram
-  'com.fankes.tsbattery', // TSBattery
-  'top.trangle.mbga', // MBGA
-  'cc.microblock.TGStickerProvider', // TGStickerProvider
-  'xyz.xfqlittlefan.notdeveloper', // 我不是开发者
-  'com.zhenxi.hunter', // Hunter
-  'com.reveny.nativecheck', // Native Detector
-  'cn.lyric.getter', // 酒域-歌词获取
-  'io.github.vvb2060.keyattestation', // 密钥认证
-  'com.google.android.hmal', // 隐藏应用列表（@pumPCin fork）
+
   'com.adguard.android', // AdGuard
   'com.spotify.music', // Spotify
-  'jp.pxv.android', // pixiv
+
   'com.fankes.apperrorstracking', // 异常跟踪
   'com.fankes.epperrorsdemo', // 异常示例
   'com.fankes.miui.notify', // MIUI 原生通知图标
-  'com.simo.ssl.killer', // SSL Killer
-  'net.afdian.afdian', // 爱发电
-  'org.thoughtcrime.securesms', // Signal 全局规则误触 https://i.gkd.li/i/19952277
-  'com.example.piliplus', // PiliPlus
-  'com.mtphotosapp', // MT Photos 全局规则误触 https://i.gkd.li/i/20023048
-  'com.predidit.kazumi', // Kazumi
-  'com.github.catfriend1.syncthingandroid', // Syncthing-Fork
-  'com.github.catfriend1.syncthingfork', // Syncthing-Fork
-  'org.fcitx.fcitx5.android', // 小企鹅输入法
-  'org.fcitx.fcitx5.android.plugin.clipboard_filter', // 小企鹅输入法（剪贴板过滤器插件）
-  'org.fcitx.fcitx5.android.plugin.rime', // 小企鹅输入法（中州韵插件）
-  'org.fcitx.fcitx5.android.plugin.anthy', // 小企鹅输入法（Anthy 插件）
-  'org.fdroid.fdroid', // F-Droid
-  'org.fdroid.fdroid.privileged', // F-Droid 特权扩展
-  'com.digibites.accubattery', // AccuBattery
-  'com.domosekai.cardreader', // 读卡识途
-  'com.noctuasoftware.stellarium_free', // Stellarium
-  'net.osmand', // OsmAnd
-  'net.osmand.plus', // OsmAnd+
   'com.google.android.apps.maps', // Google 地图
-  'com.jiaohua_browser', // JMComic2
-  'com.picacomic.fregata', // PicACG
-  'com.rosan.installer.x.revived', // installerX Revived
-  'com.android.gpstest', // GPSTest
-  'com.positron_it.zlib', // Z-Lib
-  'org.sunsetware.phocid', // Phocid
-  'com.twifucker.hachidori', // Hachidori
-  'me.neko.fckvip', // Fuck for VIP
-  'gr.nikolasspyr.integritycheck', // Play Integrity API Checker
-  'com.luckyzyx.luckytool', // 全局规则误触 https://i.gkd.li/i/21339859
   'ai.x.grok', // Grok 全局规则误触 https://i.gkd.li/i/22884434
-  'xyz.malkki.neostumbler.fdroid', // NeoStumbler
-  'org.torproject.torbrowser', // Tor Browser
-  'proton.android.authenticator', // Proton Authenticator
-  'io.safepal.wallet', // SafePal
-  'org.documentfoundation.libreoffice', // LibreOffice Viewer
-  'be.mygod.vpnhotspot_foss', // VPN 热点
   'io.nekohasekai.sfa', // sing-box
-  'com.binance.dev', // 币安
-  'com.superproductivity.superproductivity', // Super Productivity
 
   'com.canghai.haoka',
   'com.xy.td',
@@ -287,30 +148,11 @@ export const blackListAppIDs: string[] = [
   'com.android.calendar', // 日历
   'com.mi.earphone', // 小米耳机
 
-  // 三星
-  'com.samsung.android.app.cameraassistant',
-  'com.samsung.android.app.galaxyraw',
-  'com.samsung.android.appbooster',
-  'com.android.samsung.utilityapp',
-  'com.samsung.android.goodlock',
-  'com.samsung.android.thermalguardian',
-  'com.samsung.android.calendar',
-  'com.samsung.android.app.notes',
-  'com.samsung.android.app.sreminder',
-  'com.samsung.android.app.watchmanager',
-  'com.samsung.android.app.reminder',
-  'com.adguard.android.contentblocker',
-  'com.sec.android.app.music',
-  'com.sec.android.app.voicenote',
-  'com.futuremark.dmandroid.application',
-  'com.sec.android.app.clockpackage',
-
   // https://github.com/gkd-kit/gkd/issues/451
   'mark.via', // via浏览器
   'mark.via.gp', // via浏览器Google Play版
   'com.mmbox.xbrowser', // X浏览器
   'com.mmbox.xbrowser.pro', // X浏览器Google Play版
-  'com.mycompany.app.soulbrowser', // soul浏览器
 
   'com.google.android.contactkeys', // Android System Key Verifier
   'com.google.android.safetycore', // Android System SafetyCore
@@ -340,7 +182,6 @@ export const updateBlackListAppIDs = new Set([
   'info.muge.appshare', // AppShare
   'com.jingdong.app.mall', // 京东
   'com.netease.uuremote', // UU远程（不更新会强制退出）
-  'com.zhjy.study', // 智慧职教（不更新会强制退出）
 ]);
 
 // 青少年模式黑名单
@@ -381,22 +222,12 @@ export const whiteListAppIDs: string[] = [];
 // 开屏广告白名单
 export const openAdWhiteListAppIDs = new Set([
   ...whiteListAppIDs,
-  'com.bbk.appstore', // vivo应用商店
-  'com.tencent.southpole.appstore', // 黑鲨应用市场
-  'com.heytap.browser', // 一加浏览器
-  'com.heytap.themestore', // oppo主题商店
-  'com.bbk.theme', // vivo主题商店
-  'com.vivo.game', // vivo游戏中心 https://i.gkd.li/i/20097148
-  'com.meizu.media.video', // 魅族视频
-  'com.hihonor.vmall', // 荣耀商城
+
   'com.miui.systemAdSolution', // 智能服务
 ]);
 
 // 更新提示白名单
-export const updateWhiteListAppIDs = new Set([
-  ...whiteListAppIDs,
-  'com.hihonor.phoneservice', // 我的荣耀
-]);
+export const updateWhiteListAppIDs = new Set([...whiteListAppIDs]);
 
 // 青少年模式白名单
 export const yongWhiteListAppIDs = new Set([...whiteListAppIDs]);
