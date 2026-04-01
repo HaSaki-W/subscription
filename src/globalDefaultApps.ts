@@ -222,7 +222,6 @@ export const whiteListAppIDs: string[] = [];
 // 开屏广告白名单
 export const openAdWhiteListAppIDs = new Set([
   ...whiteListAppIDs,
-
   'com.miui.systemAdSolution', // 智能服务
 ]);
 

@@ -17,7 +17,7 @@ apps.forEach((appConfig) => {
 export default defineGkdSubscription({
   id: 233,
   name: 'Luffy-GKD',
-  version: 4,
+  version: 260401,
   author: 'Luffy',
   checkUpdateUrl: './gkd.version.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',

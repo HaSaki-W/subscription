@@ -42,13 +42,14 @@ export default defineGkdApp({
     },
     {
       key: 3,
-      name: '功能类-自动点击查看原图',
+      name: '功能类-自动点击查看原图-V2',
       rules: [
         {
           fastQuery: true,
           activityIds: [
-            '.module.bbs.post.ui.activitys.WebNewsPostPageActivity',
-            '.module.bbs.post.ui.activitys.PicturePostPageActivity',
+            //'.module.bbs.post.ui.activitys.WebNewsPostPageActivity',
+            //'.module.bbs.post.ui.activitys.PicturePostPageActivity',
+            '.module.bbs.post.ui.activitys.v2.PicturePostPageActivityV2',
           ],
           matches: '[vid="tv_original"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/f7222b21-7037-4614-95ab-cff19ee15d38',
