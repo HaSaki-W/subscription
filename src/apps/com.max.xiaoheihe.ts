@@ -47,11 +47,10 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: [
-            //'.module.bbs.post.ui.activitys.WebNewsPostPageActivity',
-            //'.module.bbs.post.ui.activitys.PicturePostPageActivity',
-            '.module.bbs.post.ui.activitys.v2.PicturePostPageActivityV2',
+            'com.max.xiaoheihe.module.bbs.post.ui.activitys.v2.PicturePostPageActivityV2',
+            'com.max.xiaoheihe.module.bbs.post.ui.activitys.v2.WebNewsPostPageActivityV2',
           ],
-          matches: '[vid="tv_original"][visibleToUser=true]',
+          matches: '[vid="tv_original"][visibleToUser=true][clickable=true]',
           exampleUrls: 'https://e.gkd.li/f7222b21-7037-4614-95ab-cff19ee15d38',
           snapshotUrls: [
             'https://i.gkd.li/i/16646832',
