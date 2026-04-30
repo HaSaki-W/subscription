@@ -80,17 +80,12 @@ export const blackListAppIDs: string[] = [
   'icu.nullptr.nativetest',
   'icu.nullptr.applistdetector',
   'io.github.vvb2060.mahoshojo',
-  'com.samsung.android.memoryguardian',
   'com.music.khkj',
   'Hook.JiuWu.Xp',
   'me.weishu.kernelsu',
   'com.franco.kernel',
-  'com.samsung.android.themedesigner',
-  'com.samsung.android.game.gamehome',
   'com.tencent.tmgp.sgame',
   'com.yangyanghuzhou.heijuan',
-  'com.sec.android.app.sbrowser',
-  'com.samsung.android.game.gamelab',
   'com.Twilight.tools',
   'com.miui.securitymanager',
   'com.google.android.documentsui',
@@ -107,12 +102,10 @@ export const blackListAppIDs: string[] = [
   'com.github.capntrips.kernelflasher',
   'com.google.android.googlequicksearchbox',
   'qyz.onedesign',
-  'com.samsung.android.app.repaircal',
   'com.yhchat.app',
   'com.skyhand.sinahelper',
   'com.rong862.bear',
   'be.mygod.vpnhotspot',
-  'com.samsung.android.bixby.agent',
   'com.reveny.vbmetafix.service',
   'com.google.android.gms',
   'com.android.vending',
@@ -174,8 +167,6 @@ export const updateBlackListAppIDs = new Set([
   'com.miui.packageinstaller', // 应用包管理组件
   'com.android.packageinstaller', // 软件包安装程序
   'com.google.android.packageinstaller', // 软件包安装程序
-  'com.oplus.appdetail', // 应用安装器
-  'com.samsung.android.packageinstaller', // 软件包安装程序
 
   //-----------------------------------------------------
 
