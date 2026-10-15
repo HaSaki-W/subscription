@@ -10,7 +10,7 @@
 https://raw.githubusercontent.com/HaSaki-W/subscription/main/dist/gkd.json5
 ```
 
-- 当前版本: v8
+- 当前版本: v9
 - 已适配 171 个应用，共 725 应用规则组，3 全局规则组
 - [适配 APP 列表](./dist/README.md) · [更新日志](./dist/CHANGELOG.md)
 
